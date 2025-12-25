@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --primary:#1aac83;
+  --error:#e7195a;
+}
+body{
+  background-color:#f1f1f1;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+header{
+  background-color: rgb(225, 168, 247);
+}
+header .container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a{
+  color:#333;
+  text-decoration: none;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.home{
+  display:grid;
+  grid-template-columns: 3fr 1fr;
+  gap:100px;
+}
+.workout-details{
+  background-color: bisque;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgb(225, 168, 247);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.workout-details h4{
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  color: var(--error);
+}
+.workout-details p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: rgb(86, 86, 86);
+}
+lable , input{
+  display: block;
+}
+
+input{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border:1px solid white;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+form button {
+  background: var(--primary);
+  border:0;
+  color:aliceblue;
+  padding: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+}
+div .error{
+  padding: 10px;
+  background-color: rgb(238, 231, 237);
+  border:1px solid var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+  color: var(--error);
+
+}
+ .Kumar span{
+  margin: 10px;
+  background-color: aqua;
+  color: #e7195a;
+  border: 1px solid rgb(89, 154, 246);
+  padding: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.Vishal{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+input .error{
+  border:1px solid var(--error);
+  color: #ac1a3c;
+}
